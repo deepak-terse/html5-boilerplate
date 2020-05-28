@@ -1,4 +1,4 @@
-<p align="center"><img width="100"src="/favicon_io/android-chrome-512x512.png"></a></p>
+<p align="center"><img width="100"src="/favicon_io/android-chrome-512x512.png"></p>
 
 <h1 align="center"><strong>HTML5 Boilerplate</strong></h1>
 
@@ -28,6 +28,18 @@
   </a>
   <a href="https://github.com/deepak-terse"><img src="https://img.shields.io/badge/Author-deepak--terse-blue" alt="Author deepak-terse"></a>
 </div>
+
+<br>
+## Templates
+
+#### Home
+<p align="center"><img src="/docs/home.png"></p>
+
+#### 404
+<p align="center"><img src="/docs/404.gif"></p>
+
+#### Maintenance
+<p align="center"><img src="/docs/maintenance.gif"></p>
 
 <br>
 
