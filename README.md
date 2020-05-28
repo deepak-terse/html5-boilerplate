@@ -33,15 +33,20 @@
 
 ## Templates
 
-#### Home
-<p align="center"><img src="/docs/home.png"></p>
+<h5 align="center"><strong>Home Page</strong></h5>
+<p align="center"><img width="90%" src="/docs/home.png"></p>
 
-#### 404
-<p align="center"><img src="/docs/404.gif"></p>
+<br>
 
-#### Maintenance
-<p align="center"><img src="/docs/maintenance.gif"></p>
+<h5 align="center"><strong>404</strong></h5>
+<p align="center"><img width="90%" src="/docs/404.gif"></p>
 
+<br>
+
+<h5 align="center"><strong>Maintenance</strong></h5>
+<p align="center"><img width="90%" src="/docs/maintenance.gif"></p>
+
+<br>
 <br>
 
 ## Prerequisites
