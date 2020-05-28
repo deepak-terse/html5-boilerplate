@@ -36,7 +36,7 @@ Nothing! Just clone this project and start building your website.
 
 <br>
 
-## How to Use
+## Quick Start
 
 #### Clone the project
 ```
@@ -50,15 +50,49 @@ All the dependencies and their version used are mentioned below. Used them direc
 - Material Design Lite (1.3.0) - https://getmdl.io/
 - Modernizr = https://modernizr.com/
 
-#### Build your website
-Replace the code block in the <body> section of the index.html with your code.
-Add files and write code as per the guidelines and the folder structure provided.
 
 #### Add your logo to favicon (Optional)
 A sample favicon is added to this website. You can visit this website (https://favicon.io/) to generate your own favicon from text, images or emojis. After you generate the favicons, add them to the code as per the instructions.
 
 #### Run your website locally
 Just double click on index.html file and you are up and running
+
+#### Build your website
+Replace the code block in the <body> section of the index.html with your code.
+Add files and write code as per the guidelines and the folder structure provided.
+
+<br>
+
+## Features
+* Light-weight
+* Easy to use
+
+<br>
+
+## Project structure
+<pre>
+<code>
+html-boilerplate/
+├── assets/
+│   ├── icons/
+│   └── images/
+├── favicon_io/
+├── js/
+│   ├── main.js
+│   └── vendor/
+│       ├── jquery-3.5.1.min.js
+│       ├── material.min.js
+│       └── modernizr-custom.js
+├── css/
+|   ├── main.css
+│   └── vendor/
+│       └── material.min.css
+├── templates/
+|   └── 404.html
+├── index.html
+└── robots.txt
+</code>
+</pre>
 
 <br>
 
