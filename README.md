@@ -20,7 +20,7 @@
   <a href="https://nodejs.org/en/">
     <img src="https://img.shields.io/badge/Javascript-1.8.5-yellow.svg" alt="Javascript version">
   </a>
-  <a href="https://github.com/deepak-terse/it-wasnt-me">
+  <a href="https://github.com/deepak-terse/html5-boilerplate">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="LICENSE">
   </a>
   <a href="https://medium.com/@iamdeepakterse">
