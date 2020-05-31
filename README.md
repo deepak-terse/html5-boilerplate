@@ -79,6 +79,9 @@ Just double click on index.html file and you are up and running
 Replace the code block in the <body> section of the index.html with your code.
 Add files and write code as per the guidelines and the folder structure provided.
 
+#### Remove the demo folder
+There's a demo folder included in this project with sample templates which are ready to use with little or no modifications based on your need. Once you complete your development, you can delete this folder from your respository just to avoid unnecessary space allocation.
+
 <br>
 
 ## Features
@@ -105,7 +108,8 @@ html-boilerplate/
 |   ├── main.css
 │   └── vendor/
 │       └── material.min.css
-├── templates/
+├── pages/
+|   ├── maintenance.html
 |   └── 404.html
 ├── index.html
 └── robots.txt
