@@ -1,4 +1,4 @@
-<p align="center"><img width="100"src="/favicon_io/android-chrome-512x512.png"></a></p>
+<p align="center"><img width="100"src="/favicon_io/android-chrome-512x512.png"></p>
 
 <h1 align="center"><strong>HTML5 Boilerplate</strong></h1>
 
@@ -20,7 +20,7 @@
   <a href="https://nodejs.org/en/">
     <img src="https://img.shields.io/badge/Javascript-1.8.5-yellow.svg" alt="Javascript version">
   </a>
-  <a href="https://github.com/deepak-terse/it-wasnt-me">
+  <a href="https://github.com/deepak-terse/html5-boilerplate">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="LICENSE">
   </a>
   <a href="https://medium.com/@iamdeepakterse">
@@ -29,6 +29,24 @@
   <a href="https://github.com/deepak-terse"><img src="https://img.shields.io/badge/Author-deepak--terse-blue" alt="Author deepak-terse"></a>
 </div>
 
+<br>
+
+## Templates
+
+<h5 align="center"><strong>Home Page</strong></h5>
+<p align="center"><img width="90%" src="/docs/home.png"></p>
+
+<br>
+
+<h5 align="center"><strong>404</strong></h5>
+<p align="center"><img width="90%" src="/docs/404.gif"></p>
+
+<br>
+
+<h5 align="center"><strong>Maintenance</strong></h5>
+<p align="center"><img width="90%" src="/docs/maintenance.gif"></p>
+
+<br>
 <br>
 
 ## Prerequisites
@@ -61,6 +79,9 @@ Just double click on index.html file and you are up and running
 Replace the code block in the <body> section of the index.html with your code.
 Add files and write code as per the guidelines and the folder structure provided.
 
+#### Remove the demo folder
+There's a demo folder included in this project with sample templates which are ready to use with little or no modifications based on your need. Once you complete your development, you can delete this folder from your respository just to avoid unnecessary space allocation.
+
 <br>
 
 ## Features
@@ -87,7 +108,8 @@ html-boilerplate/
 |   ├── main.css
 │   └── vendor/
 │       └── material.min.css
-├── templates/
+├── pages/
+|   ├── maintenance.html
 |   └── 404.html
 ├── index.html
 └── robots.txt
