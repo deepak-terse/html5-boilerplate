@@ -1,0 +1,43 @@
+h1 {
+    color: #555;
+    font-size: 3em;
+    font-weight: 400;
+    margin:10px;
+}
+
+p {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #555555;
+    font-size: 1.5em;
+}
+
+.mdl-layout__header-row{
+    color:#424242 !important;
+    padding: 0 40px;
+}
+
+.mdl-layout__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mdl-navigation__link{
+    color:#424242 !important;
+}
+
+.mdl-layout__content{
+    overflow-y: visible;
+    overflow-x: visible;
+}
+
+.mdl-layout{
+    background-color: #F9F9F9;
+    text-align: center;
+}

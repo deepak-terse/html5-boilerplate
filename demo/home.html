@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+		<!--- =========================== Basic Page Needs ============================ -->
+		<title>HTML 5 Boilerplate</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<!--- ======================== Mobile Specific Metas ========================== -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<!--- ===================== Meta to support IE8 or IE9 ======================== -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<!-- ================================ Favicons ================================ -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+		<!-- ========================= Fonts and Material icons ======================= -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
+		<!-- =========================== Material Design Lite ========================= -->
+        <link rel="stylesheet" href="../css/vendor/material.min.css">
+		<script defer src="../js/vendor/material.min.js"></script>
+		
+		<link rel="stylesheet" href="../css/main.css">
+		<link rel="stylesheet" href="demo.css">
+		
+		<style>
+			.mdl-layout-title{
+				padding: 0 20px;
+			}
+			
+			.demo-card-square.mdl-card {
+				width: 320px;
+				height: 350px;
+			}
+
+			#materialdesignlite{
+				color: #fff;
+			}
+
+			#modernizr{
+				color: #d81e75;
+			}
+			#jquery{
+				color: #0769ad;
+			}
+
+			#logo{
+				margin-top:50px;
+			}
+
+			.mdl-card__title{
+				background-color: #222328;
+				display:flex;
+				flex-direction: column;
+				justify-content: space-around;
+				align-items: center;
+			}
+			.mdl-card__title-text{
+				align-self: center;
+			}
+
+		</style>
+
+  	</head>
+
+  	<body>
+		<div class=" mdl-layout mdl-js-layout">
+
+			<header class="mdl-layout__header mdl-layout__header--transparent">
+				<div class="mdl-layout__header-row">
+				  <!-- Title -->
+				  <img src="assets/logo.png" height="50px" width="50px">
+				  <span class="mdl-layout-title">Header</span>
+				  <!-- Add spacer, to align navigation to the right -->
+				  <div class="mdl-layout-spacer"></div>
+				  <!-- Navigation -->
+				  <nav class="mdl-navigation">
+					<a class="mdl-navigation__link" href="404.html">Page Not Found</a>
+					<a class="mdl-navigation__link" href="maintenance.html">Maintenance</a>
+				  </nav>
+				</div>
+			</header>
+
+			<main class="mdl-layout__content">
+				<div class="page-content">
+					<img id="logo" src="assets/logo.png" height="125px" width="125px">
+					<h1>HTML 5 Boilerplate</h1>
+					<p>A ready-made frontend template based on HTML5, CSS3 and Javascript used to build scalable and robust static website</p>
+		
+					<br>
+					<br>
+					<h5>Dependencies	</h5>
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--4-col">
+							<div class="demo-card-square mdl-card mdl-shadow--2dp">
+								<div id="materialdesignlite" class="mdl-card__title mdl-card--expand">
+									<img id="logo2" src="assets/materialdesignlite.svg" height="100px" >
+								  	<h2 class="mdl-card__title-text">Material Design Lite</h2>
+								</div>
+								<div class="mdl-card__supporting-text">
+									Material Design Lite (MDL) is a Css and Javascript library which lets you add a Material Design look and feel to your static content websites.
+								</div>
+								<div class="mdl-card__actions mdl-card--border">
+									<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://getmdl.io/">
+										Visit Website
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="mdl-cell mdl-cell--4-col">
+							<div class="demo-card-square mdl-card mdl-shadow--2dp">
+								<div id="modernizr"  class="mdl-card__title mdl-card--expand">
+									<img id="logo2" src="assets/modernizr.png" height="100px" >
+								  	<h2 class="mdl-card__title-text">Modernizr</h2>
+								</div>
+								<div class="mdl-card__supporting-text">
+									Modernizr is a JavaScript library that detects the features available in a user's browser. This lets web pages avoid unsupported features by handling it in the code.
+								</div>
+								<div class="mdl-card__actions mdl-card--border">
+									<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://modernizr.com/">
+										Visit Website
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="mdl-cell mdl-cell--4-col">
+							<div class="demo-card-square mdl-card mdl-shadow--2dp">
+								<div id="jquery" class="mdl-card__title mdl-card--expand">
+									<img id="logo2" src="assets/jquery.png" height="100px" >
+								  	<h2 class="mdl-card__title-text">JQuery</h2>
+								</div>
+								<div class="mdl-card__supporting-text">
+									jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
+								</div>
+								<div class="mdl-card__actions mdl-card--border">
+									<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://jquery.com/">
+										Visit Website
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<br>
+					<br>
+
+					<div class="push"></div>
+				</div>
+			</main>
+
+			<footer class="mdl-mega-footer">
+				Footer
+			</footer>
+		</div>
+    </body>
+</html>
